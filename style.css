@@ -12,8 +12,60 @@ html, body, .container {
 
 .container{
    background-color: #01052e;
+   align-items: center;
 }
 
+header {
+   display: flex;
+   align-items: center;
+   padding: 15px;
+   gap: 35px;
+}
 header img  {
    width: 80px;
+}
+
+header input {  
+   width: 350px;
+   padding: 5px;
+   background-color: #313842;
+   border: 1px solid #777;
+   border-radius: 4px;
+   height: 40px;
+}
+header .barra {
+   width: 1px;
+   height: 30px;
+   background-color: #777;
+   border-radius: 4px;
+}
+
+.principal {
+   width: 80%;
+   margin: 0 auto;
+}
+.principal img {
+   width: 100%;
+}
+
+.canais {
+   width: 80%;
+   margin: 0 auto;
+   margin-top: 40px;
+   display:grid;
+   grid-template-columns: repeat(6,1fr);
+   gap: 10px;
+   }
+.canal img {
+   width: 70%;
+}
+
+.canal{
+   border: 1px solid #777;
+   display:flex;
+   justify-content: center;
+   align-items:center;
+   border-radius: 5px;
+   padding: 20px; 
+   
 }
