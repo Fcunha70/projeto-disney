@@ -2,17 +2,20 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   font-family: "Josefin Sans", sans-serif; 
+   font-family: "Josefin Sans", sans-serif;
 }
 
-html, body, .container {
+html,
+body,
+.container {
    width: 100vw;
    min-height: 100vh;
 }
 
-.container{
+.container {
    background-color: #01052e;
    align-items: center;
+   padding-bottom: 15px;
 }
 
 header {
@@ -21,11 +24,12 @@ header {
    padding: 15px;
    gap: 35px;
 }
-header img  {
+
+header img {
    width: 80px;
 }
 
-header input {  
+header input {
    width: 350px;
    padding: 5px;
    background-color: #313842;
@@ -33,6 +37,7 @@ header input {
    border-radius: 4px;
    height: 40px;
 }
+
 header .barra {
    width: 1px;
    height: 30px;
@@ -44,6 +49,7 @@ header .barra {
    width: 80%;
    margin: 0 auto;
 }
+
 .principal img {
    width: 100%;
 }
@@ -52,20 +58,75 @@ header .barra {
    width: 80%;
    margin: 0 auto;
    margin-top: 40px;
-   display:grid;
-   grid-template-columns: repeat(6,1fr);
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
    gap: 10px;
-   }
+}
+
 .canal img {
    width: 70%;
 }
 
-.canal{
+.canal {
    border: 1px solid #777;
-   display:flex;
+   display: flex;
    justify-content: center;
-   align-items:center;
+   align-items: center;
    border-radius: 5px;
-   padding: 20px; 
-   
+   padding: 20px;
 }
+
+.links {
+   width: 80%;
+   margin: 0 auto;
+   display: flex;
+   gap: 30px;
+   color: white;
+   margin-top: 30px;
+   }
+
+   .linha {
+      width: 80%;
+      margin: 0 auto;
+      height: 0.5px;
+      background-color: white;
+      border-radius: 5px;
+      margin-top: 10px;
+   }
+
+.filmes {
+   width: 80%;
+   margin: 0 auto;
+   margin-top: 40px;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 10px;
+}
+
+.filme {
+   border-radius: 5px;
+   height: fit-content;
+}
+
+.filme img {
+   border: 1px solid #777;
+   width: 100%;
+   border-radius: 5px;
+   height: 100%;
+}
+
+.subscribe {
+   width: 80%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color:aquamarine;
+   border: 1px solid #777;
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 10px;
+   font-size: 24px;
+   padding-top: 25px;
+   
+} 
